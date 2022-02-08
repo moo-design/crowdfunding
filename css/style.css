@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	background: #f5f5f5;
+	color: #313131;	/*全体の文字色*/
+	margin: 0px;
+	padding: 0px;
+	font: 16px/1.6 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+
+}
+
+
+
+#notice_04 {
+	padding: 5px 5px;
+	line-height: 1;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+#notice_04 p {
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+.box_04 {
+	background-color: #f2f2f2;
+	font-size: 1em;
+	margin: 30px 5px 5px;
+	padding: 10px;
+}
+
+
+
+.tokuten05 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    color: #C00;
+}
+
+#order_01 {
+	width: 85%;
+	margin: 0 auto;
+}
+/*ボタン*/
+
+
+
+/*.submit:hover {
+	background-color: #79d793;
+	box-shadow: 0 3px 0 #3cb65c;
+}*/
+
+.submit_01:active, .submit_01:hover {
+	top: 3px;
+	box-shadow: none;
+	color:#fff;
+}
+
+#s-shosai {
+    margin:20px auto 0 auto;
+}
+table {
+    border-collapse: collapse;
+    font-size: 100%;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+#s-shosai th {
+    width: 30%;
+    background-color: #555;
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+#s-shosai td {
+	width: 70%;
+	padding: 20px;
+	border: 1px solid #ddd;
+	line-height: 150%;
+}
+
+.kiyaku {
+    overflow-y: scroll;
+    height: 35px;
+    width:700px;
+    padding: 1em;
+    font-size: 80%;
+    color:#888;
+    margin:0 auto;
+}
+
+img {
+	border: none;
+}
+input,textarea,select {
+	font-size: 1em;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #555;	/*リンクテキストの色*/
+	text-decoration: none;
+}
+a:hover {
+	color: #006ddc;	/*マウスオン時の文字色（全体）*/
+}
+a:hover img{
+position : relative;
+top : 3pt;
+left : 3pt;
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: 750px;	/*コンテナー幅*/
+	background-color:#fff;
+	border-left:1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+
+/*ヘッダー（サイトロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+
+
+.kiyaku {
+    overflow-y: scroll;
+    height: 50px;
+    width: 70%;
+    padding: 1em;
+    font-size: 80%;
+    color: #888;
+    margin: 0 auto;
+}
+
+.box_03 {
+	background-color: #fffed2;
+	padding-top: 0px;
+	margin: 2% 3%;
+	padding: 20px 0;
+	border:1px solid #d6d485;
+}
+
+
+
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+h1{
+	font-size: 315%;
+	margin:0em;
+}
+
+.yajirushi{
+	width:69px;
+	margin:0 auto;
+}
+
+#main {
+clear:both;
+margin: 0;}
+
+
+
+
+.point { color: #eb6100;}
+
+.ttl-1 {
+	width: auto;
+    padding: 1em 0.5em;
+    background: #009fbe;
+    position: relative;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sankaku {
+	width: 0;
+	height: 0;
+	border-top: 30px solid #009fbe;
+	border-right: 50px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 50px solid transparent;
+	position: absolute;
+	bottom: -53px;
+	left: 448px;
+}
+
+/*--------------------------------
+#check {}
+#check dt {
+	background: url(../img/icon.png) no-repeat 8px 8px;
+	background-color: #efefef;
+	font-size: 130%;
+	font-weight: bold;
+	padding-left: 35px;
+}
+#check dd {
+	margin: 1em 0;
+	text-align: justify;
+}
+-------------------------------------*/
+
+p{
+	line-height:1;
+	margin-bottom:14px;
+}
+
+/*-----------------------
+h3.about{
+	margin-top:30px;
+	background:url("../img/int.png") no-repeat;
+	padding-left:40px;
+	padding-top:5px;
+	font-size:1.3em;
+	border-bottom:1px dotted #ccc;
+	padding-bottom:10px;
+	margin-bottom:30px;
+
+
+h3.about2{
+	margin-top:30px;
+	background:url("../img/check.png") no-repeat;
+	padding-left:40px;
+	padding-top:5px;
+	font-size:20px;
+	border-bottom:1px dotted #ccc;
+	padding-bottom:10px;
+	margin-bottom:30px;
+}
+------------------------------------------------*/
+
+
+.subtn{
+
+
+/*--
+display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #333333;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #c58668;
+	--*/
+}
+
+
+/*画像設定
+---------------------------------------------------------------------------*/
+.img-posi{
+	padding-top:2px;
+	text-align:center;
+	margin-bottm:30px;
+	max-width:100%;
+	max-height:100%;
+}
+.img-prof{
+	text-align:center;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+/*フッター設定
+---------------------------------------------------------------------------*/
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer  {
+    margin: 0 auto;
+    width: 750px;
+    min-width: 750px;
+    font-size: 85%;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    position: relative;
+	background-color:#009fbe;
+    
+}
+footer a{
+color:#fff;
+}
+
+
+/*その他
+---------------------------------------------------------------------------*/
+
+.center { text-align: center;}
+
+.red { color: #d80011; }
+.outline {
+	display        : inline-block;
+	color          : #d80011;            /* 文字の色 */
+	text-shadow    : 
+		 2px  2px 1px rgba(255, 255, 255, 0.62),
+		-2px  2px 1px rgba(255, 255, 255, 0.62),
+		 2px -2px 1px rgba(255, 255, 255, 0.62),
+		-2px -2px 1px rgba(255, 255, 255, 0.62),
+		 2px  0px 1px rgba(255, 255, 255, 0.62),
+		 0px  2px 1px rgba(255, 255, 255, 0.62),
+		-2px  0px 1px rgba(255, 255, 255, 0.62),
+		 0px -2px 1px rgba(255, 255, 255, 0.62);        /* 文字の影 */
+  }
+
+
+dl.tbl_form dl,dt,dd {
+margin: 0;
+padding: 0;
+}
+
+
+/* margin
+---------------------------------------------------------------------------*/
+
+.pt20 { padding-top: 20px; }
+
+
+@media screen and (max-width: 640px) {
+/* スマホ用のCSS */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.SPnone{display:none;}
+.PCnone{display:block;}
+img{
+
+		max-width:100% !important;
+	}
+
+
+
+body{
+font: 12px/1.6;
+}
+
+
+h1{
+	text-align:center;
+	color:#fff;
+	font-size:145%;
+	line-height:1.2;
+	padding:5px;
+}
+
+
+
+
+#container {
+	width:100%;
+}
+
+
+
+table.day td{
+	padding:5px;
+	background:#fff;
+	font-size:100%;
+}
+
+
+footer{
+	width:100%;
+	min-width:100%;
+}
+
+.sankaku {
+	display:none;
+}
+
+
+dl.tbl_form dl,dt,dd {
+margin: 0;
+padding: 0;
+}
+
